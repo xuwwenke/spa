@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rectangle.css">
+    <!-- <link ref="styleness" href="./rectangle.css"> -->
+    <!-- <style>
+        div{
+            width:170px;
+            margin: 50px auto;
+            font-size: 1.1em;
+        }
+        #calculate{
+            width:70px;
+            margin-left:62px;
+        }
+        input,label{
+            margin: 5px 0;
+            padding-left: 5px;
+            font-size: 1em;
+        }
+    </style> -->
+</head>
+<body>
+    <div>
+        <label>宽度:</label>
+        <input id="width" type="text" autofocus>
+        <span>*</span>
+        <br/>
+        <div id="width-validation-message"></div>
+        <label>高度:</label>
+        <input id="height" type="text" autofocus>
+        <span>*</span>
+        <br>
+        <div id="height-validation-message"></div>
+        <input type="button" id="calculate" value="计算">
+        <br>
+        <label>周长:</label>
+        <input id="perimeter" type="text" disabled>
+        <br>
+        <label>面积:</label>
+        <input id="area" type="text" disabled>
+    </div>
+    <script src="./jquery.min.js"></script>
+    <script src="./rectangle.js"></script>
+</body>
+</html>
