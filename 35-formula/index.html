@@ -3,13 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-        <title>百度地图</title>
+        <title>数学公式编辑</title>
+        <link rel="stylesheet" href="./mathquil/mathquil.css">
         <link rel="stylesheet" href="./layout.css">
     </head>
     <body>
-        <div id="main"></div>
+        <div class="main">
+            <p>
+                <span id="formula"></span>
+            </p>
+            <input type="button" value="添加公式">
+        </div>
         <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="https://api.map.baidu.com/api?v=3.0&ak=MPNgOjHjzl1G8vDIHlyMTT0qDNf4Q0D2"></script>
+        <script src="./mathquil/mathquil.js"></script>
         <script src="./main.js"></script>
     </body>
 </html>
